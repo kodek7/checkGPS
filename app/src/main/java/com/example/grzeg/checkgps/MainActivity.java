@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btn_stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                stopService();
+                stopService();//stop
             }
         });
     }
